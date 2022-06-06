@@ -1,0 +1,48 @@
+:root{
+    --font-color: black;
+    --font-color2: black;
+    --background-color: white;
+    --background-color1: ##FFFAF0;
+    --button-color: blue;
+    --border-color: #696969;
+    --font-style: 'Ubuntu', sans-serif;
+    --boxshadow-color: 0 0 2px 1px black;
+}
+[dark-theme='dark']{
+    --font-color:white;
+    --font-color2: white;
+    --background-color:#353839;
+    --background-color1:#232624;
+    --border-color: #696969;
+    --font-style: 'Ubuntu', sans-serif;
+    --boxshadow-color: 0 0 2px 1px white;
+}
+/* overlay background */
+.overlay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+
+/* sign up modal */
+.Signup-container{
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 262px;
+    height: 302px;
+    background-color: var(--background-color1);
+    color:var(--font-color);
+    padding:10px 0px;
+    box-shadow: var(--boxshadow-color);
+}

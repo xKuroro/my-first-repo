@@ -1,0 +1,12 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 800px) {
+    .sidenav.open{
+        display: none;
+    }
+}   

@@ -1,0 +1,19 @@
+:root{
+    --font-color: black;
+    --font-color2: black;
+    --background-color: white;
+    --background-color1: ##FFFAF0;
+    --button-color: blue;
+    --border-color: #696969;
+    --font-style: 'Ubuntu', sans-serif;
+    --boxshadow-color: 0 0 2px 1px black;
+}
+[dark-theme='dark']{
+    --font-color:white;
+    --font-color2: white;
+    --background-color:#353839;
+    --background-color1:#232624;
+    --border-color: #696969;
+    --font-style: 'Ubuntu', sans-serif;
+    --boxshadow-color: 0 0 2px 1px white;
+}

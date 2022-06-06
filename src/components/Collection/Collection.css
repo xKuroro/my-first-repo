@@ -1,0 +1,20 @@
+.pagesContainer{
+    position: absolute;
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    top:100px;
+    height: 800px;
+    justify-content: center;
+}
+.depressingContainer .hentaiContainer .memesContainer{
+    display: block;
+    position: relative;
+    height: 70%;
+    width: 60%;
+    align-items: center;
+    color: white;
+    background-color: violet;
+    margin:20px auto;
+    padding: 20px;
+}

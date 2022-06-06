@@ -1,0 +1,221 @@
+:root{
+    --font-color: black;
+    --font-color2: black;
+    --background-color: white;
+    --background-color1: #FFFAF0;
+    --button-color: blue;
+    --border-color: #696969;
+    --font-style: 'Ubuntu', sans-serif;
+    --boxshadow-color: 0 0 2px 1px black;
+}
+[dark-theme='dark']{
+    --font-color:white;
+    --font-color2: white;
+    --background-color:#353839;
+    --background-color1:#232624;
+    --border-color: #696969;
+    --font-style: 'Ubuntu', sans-serif;
+    --boxshadow-color: 0 0 2px 1px white;
+}   
+
+.overlay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100vh;
+}
+
+.Signin-button{
+    background-color: var(--button-color);
+    width: 70px;
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    padding: 0 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.Signin-button a{
+    color: wheat;
+    align-items: center;
+    padding: 0 6px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.topbar-container{
+    width: 150px;
+    padding: 10px 0;
+    color: var(--font-color1);
+    display:block;
+    background-color: var(--background-color1);
+    position: relative;
+}
+.topbar-container ul{
+    list-style-type: none ;
+}
+.topbar-container ul li{
+    display: block;
+    padding:5px 10px;
+    justify-content: center;
+}
+.topbar-container a{
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    border: 0;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--font-style);
+
+}
+
+.topbar-container ul li span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--font-color1)
+  
+}
+
+/* login nav */
+.Login-container{
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 262px;
+    height: 372px;
+    background-color: var(--background-color1);
+    color:var(--font-color);
+    padding:10px 0px;
+    box-shadow: var(--boxshadow-color);
+    
+}
+.modal-header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #696969;
+}
+.modal-header-close{
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.modal-header .modal-header-title h1{
+    font-family: var(--font-style);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 48px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: var(--font-color);
+    min-height: 48px;
+    width: 100%;
+}
+    .Login-container li{
+        list-style-type: none;
+    }
+    /* social icons style */
+.login-social-icons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-social-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 15px;
+    position: relative;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding:0 10px;
+    width: 100%;
+
+}
+.signup-social-list .signup-social-button-list{
+    width: 100%;
+    border: 1px solid var(--border-color);
+    height: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.social-icon-svg{
+    position: absolute;
+    left:5px;
+    
+}
+.login-social-icons-container .login-divider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    
+}
+.login-social-icons-container .login-divider a{
+    color: var(--font-color1);
+}
+
+.ui-input{
+    padding-bottom: 8px;
+}
+.ui-input input{
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+    border-radius: 8px;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    padding: 10px 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none;
+    border-color: hsla(0,0%,100%,.2);
+}
+
